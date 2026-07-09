@@ -1,0 +1,113 @@
+# ====================
+# Unity
+# ====================
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/*.csproj
+/*.sln
+/*.userprefs
+/*.pidb
+*.unityproj
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.exe
+*.app
+*.dll
+*.so
+*.pdb
+*.pidb.meta
+*.sln.meta
+*.csproj.meta
+
+# Unity Addressables
+/[Aa]ssets/[Aa]ddressable[Aa]ssets/
+/[Aa]ssets/[Aa]ddressable[Aa]ssets[Aa]sset/[Cc]atalogs/
+
+# Unity Asset Store
+/Assets/AssetStoreTools*
+
+# ====================
+# Python
+# ====================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+ENV/
+env/
+*.egg-info/
+dist/
+build/
+*.log
+logs/
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.mypy_cache/
+.dmypy.json
+dmypy.json
+*.pyc
+*.pyo
+*.pyd
+
+# ====================
+# C++
+# ====================
+*.obj
+*.pdb
+*.ilk
+*.exp
+*.lib
+*.dll
+*.so
+*.exe
+CppNative/build/
+CppNative/cmake-build-*/
+*.user
+*.suo
+*.userprefs
+*.sln.docstates
+
+# ====================
+# 配置文件（敏感信息）
+# ====================
+.env
+.env.local
+.env.*.local
+*.key
+*.pem
+*.crt
+*.cert
+
+# ====================
+# OS 系统文件
+# ====================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# ====================
+# IDE
+# ====================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.vs/
