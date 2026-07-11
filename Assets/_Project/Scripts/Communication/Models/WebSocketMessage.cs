@@ -1,5 +1,3 @@
-// Assets/_Project/Scripts/Communication/Models/WebSocketMessage.cs
-
 using System;
 
 namespace Communication.Models
@@ -11,7 +9,8 @@ namespace Communication.Models
         public string type;
         public string protocol = "v1";
         public string timestamp;
-        public object data;
+        public ChatResponseData response_data;
+        public ChatData chat_data;
         public string in_reply_to;
         public string error;
     }
@@ -30,5 +29,19 @@ namespace Communication.Models
         public string status;
         public string server_time;
         public string client_id;
+    }
+
+    [Serializable]
+    public class ChatResponseData
+    {
+        public bool success;
+        public string reply;
+        public string error;
+    }
+
+    [Serializable]
+    public class MessageDataWrapper
+    {
+        public ChatResponseData data;
     }
 }

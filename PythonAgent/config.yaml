@@ -1,0 +1,25 @@
+server:
+  host: "127.0.0.1"
+  port: 8766
+  heartbeat_interval: 30
+  max_reconnect_attempts: 10
+
+llm:
+  type: "ollama"
+  config:
+    model: "qwen3:8b"
+    temperature: 0.7
+    max_tokens: 4096
+
+memory:
+  max_history: 50
+  save_interval: 10
+
+perception:
+  screenshot_enabled: true
+  process_monitor_enabled: true
+
+logging:
+  level: "INFO"
+  format: "{time} | {level} | {message}"
+  file_path: "logs/app.log"

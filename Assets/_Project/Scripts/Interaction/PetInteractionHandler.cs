@@ -1,5 +1,3 @@
-// Assets/_Project/Scripts/Interaction/PetInteractionHandler.cs
-
 using UnityEngine;
 
 public class PetInteractionHandler : MonoBehaviour
@@ -10,8 +8,6 @@ public class PetInteractionHandler : MonoBehaviour
 
     [Header("Feedback Settings")]
     [SerializeField] private float _clickFeedbackDuration = 1f;
-    [SerializeField] private string _clickTriggerName = "Interact";
-    [SerializeField] private string _hoverTriggerName = "Hover";
 
     private bool _isInteracting = false;
 
@@ -45,9 +41,25 @@ public class PetInteractionHandler : MonoBehaviour
 
         _isInteracting = true;
 
-        if (_petAnimator != null && !string.IsNullOrEmpty(_clickTriggerName))
+        if (PetManager.Instance != null)
         {
-            _petAnimator.SetTrigger(_clickTriggerName);
+            int randomInteraction = Random.Range(0, 3);
+            switch (randomInteraction)
+            {
+                case 0:
+                    PetManager.Instance.TriggerInteraction(InteractState.InteractionType.Pet);
+                    break;
+                case 1:
+                    PetManager.Instance.TriggerInteraction(InteractState.InteractionType.Jump);
+                    break;
+                case 2:
+                    PetManager.Instance.TriggerInteraction(InteractState.InteractionType.Spin);
+                    break;
+            }
+        }
+        else if (_petAnimator != null)
+        {
+            _petAnimator.SetTrigger("Interact");
         }
 
         Debug.Log($"[PetInteraction] Pet clicked at position: {clickPosition}");
@@ -57,18 +69,18 @@ public class PetInteractionHandler : MonoBehaviour
 
     private void OnPetHoverEnter(GameObject petObject)
     {
-        if (_petAnimator != null && !string.IsNullOrEmpty(_hoverTriggerName))
+        if (_petAnimator != null)
         {
-            _petAnimator.SetBool(_hoverTriggerName, true);
+            _petAnimator.SetBool("Hover", true);
         }
         Debug.Log("[PetInteraction] Pet hover enter");
     }
 
     private void OnPetHoverExit(GameObject petObject)
     {
-        if (_petAnimator != null && !string.IsNullOrEmpty(_hoverTriggerName))
+        if (_petAnimator != null)
         {
-            _petAnimator.SetBool(_hoverTriggerName, false);
+            _petAnimator.SetBool("Hover", false);
         }
         Debug.Log("[PetInteraction] Pet hover exit");
     }
@@ -78,7 +90,7 @@ public class PetInteractionHandler : MonoBehaviour
         _isInteracting = false;
         if (_petAnimator != null)
         {
-            _petAnimator.ResetTrigger(_clickTriggerName);
+            _petAnimator.ResetTrigger("Interact");
         }
     }
 

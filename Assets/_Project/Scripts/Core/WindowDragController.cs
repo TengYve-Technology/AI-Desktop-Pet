@@ -138,4 +138,4 @@ public class WindowDragController : MonoBehaviour
             _clickDetector.OnPetClickReleased -= OnPetClickReleased;
         }
     }
-}
+}   
