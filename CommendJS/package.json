@@ -1,0 +1,20 @@
+{
+  "name": "desktoppet-cli",
+  "version": "1.0.0",
+  "description": "AI Desktop Pet 命令行工具",
+  "main": "index.js",
+  "bin": {
+    "dtp": "./index.js"
+  },
+  "scripts": {
+    "test": "node index.js"
+  },
+  "keywords": [
+    "cli",
+    "desktop-pet",
+    "ai"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {}
+}

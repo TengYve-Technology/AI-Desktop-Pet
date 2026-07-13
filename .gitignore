@@ -107,6 +107,7 @@ desktop.ini
 # ====================
 .vscode/
 .idea/
+.idae/
 *.swp
 *.swo
 *~
