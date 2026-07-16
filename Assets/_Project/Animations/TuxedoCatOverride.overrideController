@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: TuxedoCatOverride
+  m_Controller: {fileID: 9100000, guid: 4c120a69508ff0747a220193c45bf079, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 8057237993828211356, guid: 5aa3b0ed24bd7a347a266995bf5ec351, type: 3}
+    m_OverrideClip: {fileID: -4234748653236570420, guid: c7e72af407c8b644aaa4ff0b49eb4d03, type: 3}
+  - m_OriginalClip: {fileID: 2582248262567841590, guid: 5aa3b0ed24bd7a347a266995bf5ec351, type: 3}
+    m_OverrideClip: {fileID: -1942550701457352025, guid: c7e72af407c8b644aaa4ff0b49eb4d03, type: 3}
+  - m_OriginalClip: {fileID: -6598019364266543362, guid: 5aa3b0ed24bd7a347a266995bf5ec351, type: 3}
+    m_OverrideClip: {fileID: 2076906615950148286, guid: c7e72af407c8b644aaa4ff0b49eb4d03, type: 3}
+  - m_OriginalClip: {fileID: -5731857457742334473, guid: 5aa3b0ed24bd7a347a266995bf5ec351, type: 3}
+    m_OverrideClip: {fileID: -1071760587981652628, guid: c7e72af407c8b644aaa4ff0b49eb4d03, type: 3}
+  - m_OriginalClip: {fileID: 3076339144377263879, guid: 5aa3b0ed24bd7a347a266995bf5ec351, type: 3}
+    m_OverrideClip: {fileID: 8485331197537050744, guid: c7e72af407c8b644aaa4ff0b49eb4d03, type: 3}
+  - m_OriginalClip: {fileID: 5345731237000228681, guid: 5aa3b0ed24bd7a347a266995bf5ec351, type: 3}
+    m_OverrideClip: {fileID: 6298491435622742287, guid: c7e72af407c8b644aaa4ff0b49eb4d03, type: 3}
+  - m_OriginalClip: {fileID: 2406816731250121098, guid: 5aa3b0ed24bd7a347a266995bf5ec351, type: 3}
+    m_OverrideClip: {fileID: -9153051544776061203, guid: c7e72af407c8b644aaa4ff0b49eb4d03, type: 3}
+  - m_OriginalClip: {fileID: -6383121557112477977, guid: 5aa3b0ed24bd7a347a266995bf5ec351, type: 3}
+    m_OverrideClip: {fileID: -3217632749592803053, guid: c7e72af407c8b644aaa4ff0b49eb4d03, type: 3}

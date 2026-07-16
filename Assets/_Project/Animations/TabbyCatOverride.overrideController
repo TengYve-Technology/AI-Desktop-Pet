@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: TabbyCatOverride
+  m_Controller: {fileID: 9100000, guid: 4c120a69508ff0747a220193c45bf079, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 8057237993828211356, guid: 5aa3b0ed24bd7a347a266995bf5ec351, type: 3}
+    m_OverrideClip: {fileID: -7846910920005273847, guid: e9276f791ccddf1489aacbdb8018380f, type: 3}
+  - m_OriginalClip: {fileID: 2582248262567841590, guid: 5aa3b0ed24bd7a347a266995bf5ec351, type: 3}
+    m_OverrideClip: {fileID: -5595176724621648891, guid: e9276f791ccddf1489aacbdb8018380f, type: 3}
+  - m_OriginalClip: {fileID: -6598019364266543362, guid: 5aa3b0ed24bd7a347a266995bf5ec351, type: 3}
+    m_OverrideClip: {fileID: 4920502938767271139, guid: e9276f791ccddf1489aacbdb8018380f, type: 3}
+  - m_OriginalClip: {fileID: -5731857457742334473, guid: 5aa3b0ed24bd7a347a266995bf5ec351, type: 3}
+    m_OverrideClip: {fileID: -6813982781681936832, guid: e9276f791ccddf1489aacbdb8018380f, type: 3}
+  - m_OriginalClip: {fileID: 3076339144377263879, guid: 5aa3b0ed24bd7a347a266995bf5ec351, type: 3}
+    m_OverrideClip: {fileID: -6295705438245802528, guid: e9276f791ccddf1489aacbdb8018380f, type: 3}
+  - m_OriginalClip: {fileID: 5345731237000228681, guid: 5aa3b0ed24bd7a347a266995bf5ec351, type: 3}
+    m_OverrideClip: {fileID: 5039547066572655747, guid: e9276f791ccddf1489aacbdb8018380f, type: 3}
+  - m_OriginalClip: {fileID: 2406816731250121098, guid: 5aa3b0ed24bd7a347a266995bf5ec351, type: 3}
+    m_OverrideClip: {fileID: -4770999871319314768, guid: e9276f791ccddf1489aacbdb8018380f, type: 3}
+  - m_OriginalClip: {fileID: -6383121557112477977, guid: 5aa3b0ed24bd7a347a266995bf5ec351, type: 3}
+    m_OverrideClip: {fileID: 2098713390824078252, guid: e9276f791ccddf1489aacbdb8018380f, type: 3}
